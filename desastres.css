@@ -7,21 +7,30 @@ body{
 }
 #izq{
     float: left;
+    margin-top: -1%;
     width: 10%;
-    height: 100%;
+    height: 80%;
     background-color: burlywood;
 }
 #dcha{
     float: right;
-    margin-right: 14.8%;
+    margin-right: 2.8%;
+    margin-top: -1%;
     width: 10%;
+    height: 80%;
     background-color: lightblue;
 }
-#menu>div:nth-of-type(1){
-    height: 10%;
-    float: right;
+#menu>div:nth-of-type(1)>p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: aqua;
+    width: 10%;
+    text-align: center;
 }
-#menu>div:nth-of-type(2){
+#menu>div:nth-of-type(2)>a{
     float: right;
+    margin-top: -4%;
     height: 10%;
+    width: 10%;
+    background-color: yellow;
 }
