@@ -23,7 +23,6 @@ body{
 #menu>div:nth-of-type(1)>p{
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: aqua;
     width: 10%;
     text-align: center;
 }
@@ -32,5 +31,9 @@ body{
     margin-top: -4%;
     height: 10%;
     width: 10%;
-    background-color: yellow;
+}
+h1{
+    margin-left: 35%;
+    text-align: center;
+    width: 30%;
 }
