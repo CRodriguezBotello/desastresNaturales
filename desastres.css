@@ -10,7 +10,6 @@ body{
     margin-top: -1%;
     width: 10%;
     height: 80%;
-    background-color: burlywood;
 }
 #dcha{
     float: right;
@@ -18,7 +17,6 @@ body{
     margin-top: -1%;
     width: 10%;
     height: 80%;
-    background-color: lightblue;
 }
 #menu>div:nth-of-type(1)>p{
     padding-top: 2%;
