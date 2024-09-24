@@ -38,8 +38,12 @@ h1{
     margin-left: 39%;
 }
 #texto{
+    font-size: large;
     margin-top: 8%;
     margin-left: 50%;
+}
+span{
+    font-weight: bold;
 }
 ol{
     font-size: larger;
@@ -49,16 +53,18 @@ ol{
 ol>li{
     padding-top: 1%;
 }
+#tsunami{
+    margin-left: 25%;
+}
 #enlace{
     width: 9%;
-    margin-top: 27.9%;
     margin-left: 9.7%;
     float: left;
 }
 #autor{
     font-weight: bold;
+    margin-top: -1%;
     width: 12%;
-    margin-top: 26.9%;
     margin-left: 10%;
     float: right;
 }
