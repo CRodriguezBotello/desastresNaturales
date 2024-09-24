@@ -5,10 +5,14 @@ body{
     height: 30%;
     background-color: bisque;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
 #izq{
     float: left;
     margin-top: -1%;
-    width: 10%;
+    width: 3%;
     height: 80%;
 }
 #dcha{
@@ -31,7 +35,15 @@ body{
     width: 10%;
 }
 #enlace{
-    width: 10%;
-    margin: auto;
-    background-color: blueviolet;
+    width: 9%;
+    margin-top: 46.8%;
+    margin-left: 9.7%;
+    float: left;
+}
+#autor{
+    font-weight: bold;
+    width: 12%;
+    margin-top: 45.7%;
+    margin-left: 10%;
+    float: right;
 }
