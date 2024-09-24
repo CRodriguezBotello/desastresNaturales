@@ -34,9 +34,17 @@ a{
     height: 10%;
     width: 10%;
 }
+#tohoku{
+    margin-left: 12%;
+    margin-top: -16%;
+}
+h1{
+    margin-left: 39%;
+}
 #texto{
+    width: 30%;
     margin-top: 8%;
-    margin-left: 50%;
+    margin-left: 57%;
 }
 span{
     font-weight: bold;
