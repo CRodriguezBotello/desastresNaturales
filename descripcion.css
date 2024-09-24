@@ -1,0 +1,56 @@
+body{
+    background-color: lightgreen;
+}
+#menu{
+    height: 30%;
+    background-color: bisque;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#izq{
+    float: left;
+    margin-top: -1%;
+    width: 3%;
+    height: 80%;
+}
+#dcha{
+    float: right;
+    margin-right: 2.8%;
+    margin-top: -1%;
+    width: 10%;
+    height: 80%;
+}
+#menu>div:nth-of-type(1)>p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 10%;
+    text-align: center;
+}
+#menu>div:nth-of-type(2){
+    float: right;
+    margin-top: -4%;
+    height: 10%;
+    width: 10%;
+}
+#texto{
+    margin-top: 8%;
+    margin-left: 50%;
+}
+span{
+    font-weight: bold;
+}
+#enlace{
+    width: 9%;
+    margin-top: 46.8%;
+    margin-left: 9.7%;
+    float: left;
+}
+#autor{
+    font-weight: bold;
+    width: 12%;
+    margin-top: 45.7%;
+    margin-left: 10%;
+    float: right;
+}
