@@ -11,27 +11,29 @@ a{
 }
 #izq{
     float: left;
-    margin-top: -1%;
     width: 3%;
     height: 80%;
 }
 #dcha{
     float: right;
     margin-right: 2.8%;
-    margin-top: -1%;
     width: 10%;
     height: 80%;
 }
-#menu>div:nth-of-type(1)>p{
+#menu>div:nth-of-type(1){
     padding-top: 2%;
-    padding-bottom: 2%;
     width: 10%;
     text-align: center;
 }
 #menu>div:nth-of-type(2){
+    margin-left: 45%;
+    width: 10%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+#menu>div:nth-of-type(3){
     float: right;
-    margin-top: -4%;
-    height: 10%;
+    margin-top: -3%;
     width: 10%;
 }
 #tohoku{
@@ -40,29 +42,26 @@ a{
 }
 #victimas{
     margin-left: 55%;
-    margin-top: -4%;
+    margin-top: -14%;
 }
 h1{
     margin-left: 39%;
 }
-#texto{
+#texto1{
     width: 30%;
     margin-top: 8%;
     margin-left: 57%;
+}
+#texto2{
+    margin-left: 18%;
+    width: 30%;
 }
 span{
     font-weight: bold;
 }
 #enlace{
     width: 9%;
-    margin-top: 46.8%;
+    margin-top: -1%;
     margin-left: 9.7%;
     float: left;
-}
-#autor{
-    font-weight: bold;
-    width: 12%;
-    margin-top: 45.7%;
-    margin-left: 10%;
-    float: right;
 }
