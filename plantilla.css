@@ -30,3 +30,8 @@ body{
     height: 10%;
     width: 10%;
 }
+#enlace{
+    width: 10%;
+    margin: auto;
+    background-color: blueviolet;
+}
