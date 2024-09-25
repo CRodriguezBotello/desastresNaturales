@@ -1,3 +1,4 @@
+/* Cralos Rodriguez Botello */
 body{
     background-color: lightgreen;
 }
@@ -19,9 +20,7 @@ body{
 }
 #menu>div:nth-of-type(1){
     height: 10%;
-    float: right;
 }
-/* hola */
 #menu>div:nth-of-type(2){
     float: right;
     height: 10%;
