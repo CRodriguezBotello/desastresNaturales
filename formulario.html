@@ -18,12 +18,33 @@
     <div id="dcha">
          <img src="img/mar2.jpg">
     </div>
-    <form method="get">
-        <input type="text" name="nombre" id="nombre" placeholder="Introduzca un nombre" required>
-        <input type="text" name="nombre2" id="nombre2" placeholder="Introduzca un apellido" required>
-        <input type="date" name="fecha" id="fecha">
-        <input type="radio" name="button" required>H
-        <input type="radio" name="button" required>M
+    <div>
+        <h1>Formulario</h1>
+    </div>
+    <form method="get" id="form">
+        <fieldset>
+            <input type="text" name="nombre" placeholder="Introduzca un nombre" required> <br><br>
+            <input type="text" name="nombre2" placeholder="Introduzca un apellido" required><br><br>
+            <input type="date" name="fecha"><br><br>
+            <label for="button">Sexo:</label>
+            <input type="radio" name="button" value="hombre" required>H
+            <input type="radio" name="button" value="mujer" required>M <br><br>
+            <textarea rows="4" cols="50" name="textarea" form="form" placeholder="Díganos su opinion acerca de los desastres naturales a causa del calentamiento global"></textarea><br>
+            <label for="opciones">Cual ha sido el desastre que más te ha llamado la atención</label>
+            <select name="opciones">
+                <option value="1">Tohoku</option>
+                <option value="2">Shaanxi</option>
+                <option value="3">Océano Índico</option>
+            </select><br><br>
+            <label for="checkbox">¿Que te hace sentir este tema?</label>
+            <input type="checkbox" name="checkbox">Tristeza
+            <input type="checkbox" name="checkbox2">Enfado
+            <input type="checkbox" name="checkbox3">Impotencia
+            <input type="checkbox" name="checkbox4">Alegría <br><br>
+            <input type="button" value="Enviar">
+            <input type="button" value="Cancelar">
+        </fieldset>
+        
     </form>
     <div id="enlace">
         <a href="https://fundacionloyola.com/vguadalupe/" target="_blank">Virgen del Guadalupe</a>
