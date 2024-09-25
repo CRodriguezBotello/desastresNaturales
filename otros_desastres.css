@@ -36,16 +36,20 @@ h1{
     height: 10%;
     width: 10%;
 }
+table{
+    margin: auto;
+    margin-top: 1%;
+}
 #enlace{
     width: 9%;
-    margin-top: 46.8%;
+    margin-top: 11%;
     margin-left: 9.7%;
     float: left;
 }
 #autor{
     font-weight: bold;
     width: 12%;
-    margin-top: 45.7%;
+    margin-top: 9.7%;
     margin-left: 10%;
     float: right;
 }
