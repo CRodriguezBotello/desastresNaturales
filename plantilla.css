@@ -1,4 +1,3 @@
-/* Cralos Rodriguez Botello */
 body{
     background-color: lightgreen;
 }
@@ -23,9 +22,11 @@ a{
     width: 10%;
     height: 80%;
 }
-#menu>div:nth-of-type(1){
-    height: 10%;
-    float: right;
+#menu>div:nth-of-type(1)>p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 10%;
+    text-align: center;
 }
 #menu>div:nth-of-type(2){
     float: right;
@@ -33,37 +34,16 @@ a{
     height: 10%;
     width: 10%;
 }
-h1{
-    margin-left: 39%;
-}
-#texto{
-    font-size: large;
-    margin-top: 8%;
-    margin-left: 50%;
-}
-span{
-    font-weight: bold;
-}
-ol{
-    font-size: larger;
-    margin-top: -9%;
-    margin-left: 15%;
-}
-ol>li{
-    padding-top: 1%;
-}
-#tsunami{
-    margin-left: 25%;
-}
 #enlace{
     width: 9%;
+    margin-top: 46.8%;
     margin-left: 9.7%;
     float: left;
 }
 #autor{
     font-weight: bold;
-    margin-top: -1%;
     width: 12%;
+    margin-top: 45.7%;
     margin-left: 10%;
     float: right;
 }
