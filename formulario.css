@@ -44,19 +44,19 @@ fieldset{
     background-color: white;
     margin-left: 23%;
 }
-form>input:nth-of-type(10){
+fieldset>input:nth-of-type(11){
     float: right;
 }
 #enlace{
     width: 9%;
-    margin-top: 28.8%;
+    margin-top: 20.8%;
     margin-left: 9.7%;
     float: left;
 }
 #autor{
     font-weight: bold;
     width: 12%;
-    margin-top: 27.7%;
+    margin-top: 19.7%;
     margin-left: 10%;
     float: right;
 }
