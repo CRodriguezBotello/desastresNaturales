@@ -1,4 +1,4 @@
-/* Cralos Rodriguez Botello */
+/* Carlos Rodriguez Botello */
 body{
     background-color: lightgreen;
 }
@@ -12,24 +12,28 @@ a{
 }
 #izq{
     float: left;
-    margin-top: -1%;
     width: 3%;
     height: 80%;
 }
 #dcha{
     float: right;
     margin-right: 2.8%;
-    margin-top: -1%;
     width: 10%;
     height: 80%;
 }
 #menu>div:nth-of-type(1){
     height: 10%;
-    float: right;
+    margin-top: -1%;
+    padding-bottom: 2%;
+}
+#menu>div>p{
+    height: 10%;
+    width: 10%;
+    text-align: center;
 }
 #menu>div:nth-of-type(2){
     float: right;
-    margin-top: -4%;
+    margin-top: -2.5%;
     height: 10%;
     width: 10%;
 }
