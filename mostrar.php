@@ -7,8 +7,9 @@
     echo '<br/><br/>Desastre más llamativo: '.$_GET["opciones"];
 
     if (isset($_GET["terminos"])) {
+        echo "<br/><br/>Terminos aceptados";
         if (empty($_GET["terminos"])) {
-            echo "Terminos aceptados";
+            echo "Terminos no aceptados";
         }
     }
 ?>
