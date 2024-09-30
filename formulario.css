@@ -36,9 +36,6 @@ fieldset{
     background-color: white;
     margin-left: 23%;
 }
-fieldset>input:nth-of-type(11){
-    float: right;
-}
 #enlace{
     width: 9%;
     margin-top: 20.8%;
