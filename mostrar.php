@@ -1,5 +1,4 @@
 <?php
-require_once "formulario.html";
     echo 'Nombre: '.$_GET["nombre"];
     echo '<br/><br/>Apellido: '.$_GET["apel"];
     echo '<br/><br/>Fecha: '.$_GET["fecha"];
