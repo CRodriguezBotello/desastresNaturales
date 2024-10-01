@@ -21,14 +21,14 @@
     <div>
         <h1>Formulario</h1>
     </div>
-    <form method="get" action="prueba_mostrar.php">
+    <form method="get" action="mostrar.php">
         <fieldset>
-            <input type="text" name="nombre" placeholder="Introduzca un nombre" required> <br><br>
-            <input type="text" name="apel" placeholder="Introduzca un apellido" required><br><br>
-            <input type="date" name="fecha"><br><br>
+            <input type="text" name="nombre" placeholder="Introduzca un nombre"/> <br><br>
+            <input type="text" name="apel" placeholder="Introduzca un apellido"/><br><br>
+            <input type="date" name="fecha"/><br><br>
             <label for="button">Sexo:</label>
-            <input type="radio" name="button" value="Hombre" required>Hombre
-            <input type="radio" name="button" value="Mujer" required>Mujer <br><br>
+            <input type="radio" name="button" value="Hombre"/>Hombre
+            <input type="radio" name="button" value="Mujer"/>Mujer <br><br>
             <textarea rows="4" cols="50" name="textarea" form="form" placeholder="Díganos su opinion acerca de los desastres naturales a causa del calentamiento global" required></textarea><br>
             <label for="opciones">Cual ha sido el desastre que más te ha llamado la atención</label>
             <select name="opciones">
@@ -37,13 +37,13 @@
                 <option value="Océano Índico">Océano Índico</option>
             </select><br><br>
             <label for="checkbox">Quiero recibir más información sobre: </label>
-            <input type="checkbox" name="clima[]" value="checkbox">Incendios
-            <input type="checkbox" name="clima[]" value="checkbox2">Tsunamis
-            <input type="checkbox" name="clima[]" value="checkbox3">Tornados
-            <input type="checkbox" name="clima[]" value="checkbox4">Incendios <br><br>
+            <input type="checkbox" name="clima[]" value="Incendios"/>Incendios
+            <input type="checkbox" name="clima[]" value="Tsunamis"/>Tsunamis
+            <input type="checkbox" name="clima[]" value="Tornados"/>Tornados
+            <input type="checkbox" name="clima[]" value="Incendios"/>Incendios <br><br>
             <label for="checkbox">Acepto términos y condiciones</label>
-            <input type="checkbox" name="terminos" value="terminos"> <br><br>
-            <input type="submit" value="Enviar">
+            <input type="checkbox" name="terminos" value="terminos"/> <br><br>
+            <input type="submit" value="Enviar"/>
         </fieldset>
         
     </form>
