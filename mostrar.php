@@ -1,8 +1,14 @@
 <?php
+    print_r($_GET["clima"]);
+    echo '<br/><br/>'; 
     echo 'Nombre: '.$_GET["nombre"];
     echo '<br/><br/>Apellido: '.$_GET["apel"];
     echo '<br/><br/>Fecha: '.$_GET["fecha"];
-    echo '<br/><br/>Sexo: '.$_GET["button"];
+    if (isset($_GET["button"])) {
+        echo '<br/><br/>Sexo: '.$_GET["button"];
+    }else {
+        echo '<br/><br/>No se ha seleccionado ningun Sexo';
+    }
     // echo '<br/><br/>Opinión personal: '.$_GET["textarea"];
     echo '<br/><br/>Desastre más llamativo: '.$_GET["opciones"];
 
