@@ -9,7 +9,7 @@
     if (isset($_GET["clima[]"])) {
         echo '<br/><br/>Climas seleccionados para recibir informacion: <br/>';
         foreach($_GET["clima[]"] as $indice => $valor){
-            echo $valor.'<br/';
+            echo $valor.'<br/>';
         }
     }else {
         echo '<br/><br/>No se ha seleccionado ningun clima<br/>';
